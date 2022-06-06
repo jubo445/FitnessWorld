@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".ab">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:text="ABS WORKOUT"
+        android:textSize="30dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/desc1"
+                android:text="Build core strength with these tummy-tightening, trainer-approved moves that will improve your balance and help you develop stamina. Read more for how-to’s and best practices for your next ab workout."
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/title2"
+                android:layout_below="@+id/desc1"
+                android:text="Plank to pike"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/abs1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/title2"
+                android:src="@drawable/abs1"/>
+            <TextView
+                android:layout_below="@id/abs1"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/desc2"
+                android:layout_width="match_parent"
+                android:text="(A) Start in a forearm-plank position, feet hip-width apart, elbows shoulder-width apart and directly under shoulders. Form a straight line from shoulders to heels. (B) Keeping legs straight and heels elevated, contract abdominals to lift hips and slowly drag the gliders in toward chest, stopping before knees bend. Lower hips back to plank slowly, keeping abdominals engaged. Repeat for two minutes.
+
+"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/title3"
+                android:layout_below="@+id/desc2"
+                android:text="Plank extension"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/abs2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/title3"
+                android:src="@drawable/abs2"/>
+            <TextView
+                android:layout_below="@id/abs2"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:id="@+id/desc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(A) Start with knees on gliders behind hips and elbows shoulder-width apart and directly under shoulders. (B) Keeping hips slightly elevated and stationary, rock shoulders behind elbows, knees gliding on gliders. Bring shoulders back over elbows. Repeat for two minutes."
+                />
+            <TextView
+                android:id="@+id/title4"
+                android:layout_below="@+id/desc3"
+                android:text="Plank crunch"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/abs3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/title4"
+                android:src="@drawable/abs3"/>
+            <TextView
+                android:layout_below="@id/abs3"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:id="@+id/desc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(A) Start in a high-plank position with feet on gliders and knees slightly bent. (B) Bend the knees further, rounding the lower spine, to pull them in toward the elbows. Slowly straighten the legs to return to plank position. Repeat for two minutes."                />
+            <TextView
+                android:id="@+id/title5"
+                android:layout_below="@+id/desc4"
+                android:text="Straight-arm crunch series"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/abs4"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/title5"
+                android:src="@drawable/abs4"/>
+            <TextView
+                android:layout_below="@id/abs4"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:id="@+id/desc5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starting Position, Parts I–III: (A) Keep back flat against the floor, bend knees, and lift legs to tabletop and arms to ceiling. Part I: (B) Slowly lower legs toward the floor and arms toward thighs, stopping before back arches. Bring legs and arms back to starting position. Repeat for one minute. Part II: Keeping back flat against the floor, slowly lower legs; keep arms extended to ceiling. While lifting legs back to starting position, lower arms toward hips. Lift arms back up when extending legs. Repeat for one minute. Part III: Lower legs toward the floor and arms toward thighs. Lift and lower the legs from the right to left in a semicircle, or rainbow-shaped, movement, then back to the opposite side. Repeat for one minute."
+                />
+            <TextView
+                android:id="@+id/title6"
+                android:layout_below="@+id/desc5"
+                android:text="Army crawl"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/abs5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/title6"
+                android:src="@drawable/abs5"/>
+            <TextView
+                android:layout_below="@id/abs5"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:id="@+id/desc6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Start in a forearm plank, feet hip-width apart, elbows shoulder-width apart and directly under shoulders, feet on gliders. Lift hips slightly, and tuck tailbone. Keeping legs straight, begin to crawl forward on forearms. Reverse the action back to the starting point. Repeat for one minute."
+                />
+            <TextView
+                android:id="@+id/title7"
+                android:layout_below="@+id/desc6"
+                android:text="Twisting high-plank crunch"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/abs6"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/title7"
+                android:src="@drawable/abs6"/>
+            <TextView
+                android:layout_below="@id/abs6"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:id="@+id/desc7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(A) Start in a high-plank position, with feet on gliders. (B) Rotate hips down to the right, and bend knees to pull them toward the left elbow, slightly rounding spine. Slowly straighten the legs to return to a high-plank position. Repeat on the other side. Continue alternating sides for three minutes."
+                />
+            <TextView
+                android:id="@+id/title8"
+                android:layout_below="@+id/desc7"
+                android:text="Side plank with rotation"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/abs7"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/title8"
+                android:src="@drawable/abs7"/>
+            <TextView
+                android:layout_below="@id/abs7"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:id="@+id/desc8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(A) Start in a side-plank position, with right forearm on the ground, legs straight, feet stacked or staggered, and left arm reaching toward the ceiling. (B) Reach left arm forward and underneath torso, slightly lifting and rotating the pelvis. Repeat for one minute; then switch sides."
+                />
+            <TextView
+                android:id="@+id/title9"
+                android:layout_below="@+id/desc8"
+                android:text="Twisted plank extension"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/abs8"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/title9"
+                android:src="@drawable/abs2"/>
+            <TextView
+                android:layout_below="@id/abs8"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:id="@+id/desc9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="(A) Start on forearms with knees stacked on one glider behind hips. (B) Keeping hips slightly elevated and stationary, rock shoulders behind elbows, knees gliding along on the glider.Rock forward to bring shoulders back over elbows. Repeat for two minutes; then switch sides."
+                />
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

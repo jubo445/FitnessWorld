@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity">
+
+
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/banner"
+                android:src="@drawable/fitness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+
+            <TextView
+                android:text="Introduction"
+                android:id="@+id/text1"
+                android:layout_below="@id/banner"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_below="@id/text1"
+                android:id="@+id/text2"
+                android:textSize="25dp"
+                android:text="Physical fitness is a general state of health and well-being and, more specifically, the ability to perform aspects of sports, occupations and daily activities.And this apps to help keep you fit and healthy."
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn1"
+                android:text="FITNESS"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn2"
+                android:text="HEALTH and CONDITION A-Z"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn4"
+                android:text="DIET and NUTRITION"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn5"
+                android:text="BEAUTY"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn6"
+                android:text="WEIGHT LOSS"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn7"
+                android:text="LIFE STYLE"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

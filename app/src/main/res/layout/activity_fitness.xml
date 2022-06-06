@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".Fitness">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/ftxt1"
+                android:text="Fitness"
+                android:textSize="35dp"
+                android:textColor="@color/teal_700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_below="@id/ftxt1"
+                android:id="@+id/ftxt2"
+                android:textSize="20dp"
+                android:textColor="@color/teal_200"
+                android:text="Fitness means different things to different people and Health has something for everyone, whether you’re just getting started with a workout routine or have been training since before TikTok was a thing. Get our latest expert moves, pro-tips, and recommendations for who to follow."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/imgft"
+                android:src="@drawable/fitness2"
+                android:layout_below="@id/ftxt2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"/>
+            <Button
+                android:id="@+id/ftbtn1"
+                android:text="AB WORKOUTS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/ftbtn2"
+                android:text="ARM WORKOUTS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/ftbtn3"
+                android:text="BUTT WORKOUTS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/ftbtn4"
+                android:text="CARDIO WORKOUTS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/ftbtn5"
+                android:text="FITNESS GEAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/ftbtn6"
+                android:text="LEGS WORKOUTS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/ftbtn7"
+                android:text="STRENGTH TRAINING"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/ftbtn8"
+                android:text="YOGA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
